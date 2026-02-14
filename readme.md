@@ -1,68 +1,68 @@
-# Teste Interno — Gestão de Inventário (CRUD)
+# Teste Técnico — Sistema de Gestão de Inventário
 
-## Objetivo
-Validar o CRUD de itens de inventário (cadastrar, visualizar, editar e deletar) em uma solução Java/Spring Boot (backend) e Angular (frontend).
+## 📋 Sobre o Projeto
 
-## Link
-- https://3000-i7r5ytgk4s30wy5fkr18z-277723e1.us2.manus.computer/items
+Este é um **teste técnico Full-Stack** para desenvolvimento de um sistema completo de gestão de inventário, com **relacionamento 1:N entre Categorias e Itens**.
 
+⚠️ **IMPORTANTE:** Você deve implementar **tanto o Back-end quanto o Front-end**, pois o front-end depende das APIs REST criadas no back-end para funcionar.
 
-## Escopo
-**Será testado**
-- Backend (Spring Boot): APIs REST para CRUD de itens
-- Frontend (Angular): telas de listagem, cadastro, detalhe, edição e exclusão
-- Validações de campos obrigatórios e mensagens de erro
+O sistema deve permitir:
+- Gerenciar categorias (uma categoria pode ter vários itens)
+- Gerenciar itens de inventário (cada item pertence a apenas uma categoria)
+- CRUD completo para ambas as entidades
+- Integração completa entre back-end e front-end
 
-## Pré-requisitos
-- Java 21+ e Maven/Gradle configurados
-- Node.js 18+ e Angular CLI
-- Banco de dados local (PostgreSQL) configurado
-- Acesso ao repositório e permissões de execução
+---
 
-## Ambiente
-- Tipo: Desenvolvimento local
-- Backend: http://localhost:8080
-- Frontend: http://localhost:4200
-- Build/Versão: [preencher]
+## 📚 Documentação por Área
 
-## Dados de Teste (exemplo)
-- Item A: "Cadeira Escritório", SKU "CAD-001", Quantidade 10, Preço 99,99, Status Ativo
-- Item B: "Mesa Reunião", SKU "MES-002", Quantidade 3, Preço 899,90, Status Ativo
+Este repositório está organizado em documentações específicas para cada área de desenvolvimento:
 
-## Plano de Teste
-### Casos de Teste — Backend (Spring Boot)
-| ID | Cenário | Endpoint | Passos (resumo) | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| BE-001 | Cadastrar item | POST /api/items | Enviar payload válido | 201 Created, item persistido | Pendente |
-| BE-002 | Listar itens | GET /api/items | Consultar lista | 200 OK, lista paginada | Pendente |
-| BE-003 | Buscar item | GET /api/items/{id} | Consultar ID existente | 200 OK, item correto | Pendente |
-| BE-004 | Editar item | PUT /api/items/{id} | Atualizar campos | 200 OK, item atualizado | Pendente |
-| BE-005 | Deletar item | DELETE /api/items/{id} | Remover item | 204 No Content | Pendente |
-| BE-006 | Validação obrigatória | POST /api/items | Enviar payload incompleto | 400 Bad Request, erros de validação | Pendente |
+### 🔧 [readmeBack-end.md](readmeBack-end.md)
+**➡️ Comece por aqui! (Parte 1)**
 
-### Casos de Teste — Frontend (Angular)
-| ID | Cenário | Tela | Passos (resumo) | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| FE-001 | Cadastrar item | Novo Item | Preencher e salvar | Item criado e exibido na lista | Pendente |
-| FE-002 | Visualizar item | Detalhe | Abrir item existente | Dados corretos exibidos | Pendente |
-| FE-003 | Editar item | Edição | Alterar e salvar | Item atualizado na lista | Pendente |
-| FE-004 | Deletar item | Lista | Excluir item | Item removido da lista | Pendente |
-| FE-005 | Validação UI | Formulário | Enviar sem obrigatórios | Mensagens de validação | Pendente |
+Contém todas as especificações para implementação do back-end em **Java/Spring Boot**:
+- APIs REST para CRUD de Categorias e Itens
+- Modelo de dados e relacionamento 1:N
+- Endpoints e validações necessárias
+- Estrutura do projeto Spring Boot
+- Pré-requisitos: Java 21+, Maven, PostgreSQL
 
-### Critérios de Aceite
-- CRUD completo funcionando no backend e frontend
-- Validações obrigatórias consistentes entre UI e API
-- Mensagens de erro amigáveis ao usuário
+📌 **Implemente primeiro o back-end** para disponibilizar as APIs que o front-end irá consumir.
 
-### Critérios de Saída
-- 100% dos casos críticos aprovados
-- Nenhum defeito bloqueante aberto
+---
 
-## Evidências
-- Prints/logs: [local/links]
-- Relatório: [link ou caminho]
+### 🎨 [readmeFront-end.md](readmeFront-end.md)
+**➡️ Depois implemente isto! (Parte 2)**
 
-## Entrega
+Contém todas as especificações para implementação do front-end em **Angular ou React/Next.js**:
+- Interfaces de usuário (telas e formulários)
+- Componentes de listagem, cadastro, edição e detalhes
+- Integração com as APIs REST do back-end
+- Estrutura do projeto
+- Pré-requisitos: Node.js 18+, Angular CLI ou Next.js
+
+📌 **Implemente após o back-end** estar funcionando e com as APIs disponíveis.
+
+---
+
+## 🚀 Como Começar
+
+1. **Leia o [readmeBack-end.md](readmeBack-end.md)** e implemente as APIs REST
+2. **Teste as APIs** (use Postman, Insomnia ou similar)
+3. **Leia o [readmeFront-end.md](readmeFront-end.md)** e implemente as interfaces
+4. **Integre front-end com back-end** e teste o fluxo completo
+5. **Envie seu código** via fork do repositório
+
+---
+
+## 🤝 Entrega
+
 1. Faça um fork deste repositório
-2. Implemente a solução
-3. Envie o link do seu repositório# test-sincro
+2. Implemente a solução **completa** (back-end + front-end)
+3. Certifique-se de que ambos estão funcionando e integrados
+4. Envie o link do seu repositório
+
+---
+
+**Boa sorte! 🎯**
