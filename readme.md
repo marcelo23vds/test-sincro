@@ -2,15 +2,14 @@
 
 ## 📋 Sobre o Projeto
 
-Este é um **teste técnico Full-Stack** para desenvolvimento de um sistema completo de gestão de inventário, com **relacionamento 1:N entre Categorias e Itens**.
+Este é um **teste técnico** para desenvolvimento de um sistema de gestão de inventário, com **relacionamento 1:N entre Categorias e Itens**.
 
-⚠️ **IMPORTANTE:** Você deve implementar **tanto o Back-end quanto o Front-end**, pois o front-end depende das APIs REST criadas no back-end para funcionar.
+### 🎯 Foco Principal: Back-end
 
-O sistema deve permitir:
-- Gerenciar categorias (uma categoria pode ter vários itens)
-- Gerenciar itens de inventário (cada item pertence a apenas uma categoria)
-- CRUD completo para ambas as entidades
-- Integração completa entre back-end e front-end
+A **prioridade é implementar as API REST funcionando** no back-end. O front-end é considerado um **bônus/adicional** e terá menor peso na avaliação.
+
+⚠️ **OBRIGATÓRIO:** Implementar back-end com APIs REST  
+✨ **BÔNUS:** Implementar front-end (menor prioridade)
 
 ---
 
@@ -19,49 +18,49 @@ O sistema deve permitir:
 Este repositório está organizado em documentações específicas para cada área de desenvolvimento:
 
 ### 🔧 [readmeBack-end.md](readmeBack-end.md)
-**➡️ Comece por aqui! (Parte 1)**
+**OBRIGATÓRIO - Comece por aqui!**
 
-Contém todas as especificações para implementação do back-end em **Java/Spring Boot**:
+Especificações para implementação do back-end em **Java/Spring Boot**:
 - APIs REST para CRUD de Categorias e Itens
 - Modelo de dados e relacionamento 1:N
 - Endpoints e validações necessárias
 - Estrutura do projeto Spring Boot
 - Pré-requisitos: Java 21+, Maven, PostgreSQL
 
-📌 **Implemente primeiro o back-end** para disponibilizar as APIs que o front-end irá consumir.
-
 ---
 
 ### 🎨 [readmeFront-end.md](readmeFront-end.md)
-**➡️ Depois implemente isto! (Parte 2)**
+**BÔNUS (Opcional) - Menor prioridade**
 
-Contém todas as especificações para implementação do front-end em **Angular ou React/Next.js**:
+Especificações para implementação do front-end em **Angular ou React/Next.js** (se houver tempo):
 - Interfaces de usuário (telas e formulários)
 - Componentes de listagem, cadastro, edição e detalhes
 - Integração com as APIs REST do back-end
-- Estrutura do projeto
 - Pré-requisitos: Node.js 18+, Angular CLI ou Next.js
 
-📌 **Implemente após o back-end** estar funcionando e com as APIs disponíveis.
+⭐ *Front-end será avaliado apenas se o back-end estiver completo e funcionando*
 
 ---
 
 ## 🚀 Como Começar
 
-1. **Leia o [readmeBack-end.md](readmeBack-end.md)** e implemente as APIs REST
-2. **Teste as APIs** (use Postman, Insomnia ou similar)
-3. **Leia o [readmeFront-end.md](readmeFront-end.md)** e implemente as interfaces
-4. **Integre front-end com back-end** e teste o fluxo completo
-5. **Envie seu código** via fork do repositório
+1. **📌 OBRIGATÓRIO:** Leia o [readmeBack-end.md](readmeBack-end.md) e implemente as APIs REST
+2. **📌 OBRIGATÓRIO:** Teste as APIs (use Postman, Insomnia ou similar)
+3. **✨ BÔNUS:** Se houver tempo, leia [readmeFront-end.md](readmeFront-end.md) e implemente as interfaces
+4. **✨ BÔNUS:** Integre front-end com back-end
 
 ---
 
 ## 🤝 Entrega
 
+**OBRIGATÓRIO:**
 1. Faça um fork deste repositório
-2. Implemente a solução **completa** (back-end + front-end)
-3. Certifique-se de que ambos estão funcionando e integrados
+2. Implemente o back-end completo com todas as APIs funcionando
+3. Teste as APIs e forneça exemplos (Postman collection, curl, etc)
 4. Envie o link do seu repositório
+
+**BÔNUS (se implementado):**
+- Front-end funcionando e integrado com as APIs do back-end
 
 ---
 
