@@ -74,7 +74,7 @@ public class ItemService {
 
     private void validarCategoria(Item item) {
         if (item.getCategoria() == null || item.getCategoria().getId() == null) {
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "A categoria do item é obrigatória!");
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Erro 400: A categoria do item é obrigatória!");
         }
         try {
             Categoria categoriaExistente = categoriaService.findById(item.getCategoria().getId());

@@ -1,4 +1,4 @@
-# 📦 API REST - Gestão de Inventário
+# API REST - Gestão de Inventário
 
 API REST desenvolvida em **Java 21** e **Spring Boot** para o gerenciamento de Categorias e Itens de um inventário.
 
@@ -38,19 +38,19 @@ A API estará disponível em: `http://localhost:8080` (ou altere a porta no arqu
 ## Endpoints da API
 
 ### Categorias (`/api/categories`)
+* `POST /api/categories` - Cria uma nova categoria
 * `GET /api/categories` - Lista todas as categorias
 * `GET /api/categories/{id}` - Busca uma categoria pelo ID
-* `POST /api/categories` - Cria uma nova categoria
 * `PUT /api/categories/{id}` - Atualiza uma categoria existente
 * `DELETE /api/categories/{id}` - Deleta uma categoria
 
 ### Itens (`/api/items`)
-* `GET /api/items` - Lista todos os itens
-* `GET /api/items?categoriaId={id}` - Filtra os itens por uma categoria específica
-* `GET /api/items/{id}` - Busca um item pelo ID
 * `POST /api/items` - Cria um novo item.
+* `GET /api/items` - Lista todos os itens
+* `GET /api/items/{id}` - Busca um item pelo ID
 * `PUT /api/items/{id}` - Atualiza um item existente.
 * `DELETE /api/items/{id}` - Deleta um item.
+* `GET /api/items?categoriaId={id}` - Filtra os itens por uma categoria específica
 
 ---
 
@@ -59,3 +59,7 @@ A API estará disponível em: `http://localhost:8080` (ou altere a porta no arqu
 A documentação completa das rotas com exemplos de requisições e respostas pode ser acessada através do Postman:
 
 **[Acessar Documentação no Postman](https://documenter.getpostman.com/view/48074793/2sBXcEkLWC)**
+
+## Autor
+
+[Marcelo Vieira](<https://www.linkedin.com/in/marcelovieirasilva/>)
