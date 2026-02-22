@@ -25,7 +25,7 @@ A aplicação foi estruturada focando na componentização e experiência do usu
 
 ### 1. Pré-requisitos
 * **Node.js** (versão 18 ou superior) instalado na máquina.
-* A **API REST (Backend)** precisa estar em execução localmente, na porta padrão `8080`. *(Nota: Se a sua API estiver rodando em outra porta, você deve alterar a URL base no arquivo `src/services/api.ts`).*
+* A **API REST (Backend)** precisa estar em execução localmente, na porta padrão `8080`. *(Nota: Se a API estiver rodando em outra porta, deve alterar a URL base no arquivo `src/services/api.ts`).*
 
 ### 2. Iniciando a Interface Web
 Após baixar/clonar o repositório, abra o terminal na raiz do projeto e siga os passos abaixo:
@@ -62,7 +62,7 @@ A interface estará disponível no navegador em: `http://localhost:3000`
 
 Este projeto representa exclusivamente a camada Front-end. Todas as regras de negócio, persistência de dados e segurança estão contidas no repositório do Back-end.
 
-Para consultar as rotas consumidas por esta interface, acesse a documentação oficial da API no Postman:
+Para consultar as rotas consumidas por esta interface, acesse a documentação da API no Postman:
 
 **[Acessar Documentação no Postman](https://documenter.getpostman.com/view/48074793/2sBXcEkLWC)**
 
