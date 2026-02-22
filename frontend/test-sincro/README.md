@@ -5,8 +5,8 @@ Interface Web desenvolvida em **React** e **Next.js** para consumir a API de ger
 ![](./img-preview/preview.png)
 
 ## Tecnologias Utilizadas
-* **React 18+**
-* **Next.js 15+** (App Router)
+* **React 19**
+* **Next.js 16** (App Router)
 * **TypeScript**
 * **Tailwind CSS** (Estilização baseada em layout Dark Mode)
 * **Axios** (Integração e consumo da API)
