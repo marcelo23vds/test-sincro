@@ -6,9 +6,9 @@ Interface Web desenvolvida em **React** e **Next.js** para consumir a API de ger
 
 ## Tecnologias Utilizadas
 * **React 19**
-* **Next.js 16** (App Router)
+* **Next.js 16**
 * **TypeScript**
-* **Tailwind CSS** (Estilização baseada em layout Dark Mode)
+* **Tailwind CSS**
 * **Axios** (Integração e consumo da API)
 * **React Hot Toast** (Feedback visual e notificações)
 
